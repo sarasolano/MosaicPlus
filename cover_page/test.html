@@ -11,11 +11,15 @@
     <title>Cover Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/Users/Daedalus/Documents/mosaic_test/cover_page/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="/Users/Sara/Documents/MosaicPlus/cover_page/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../cover_page/bootstrap-3.3.5-dist/css/style.css" rel="stylesheet" type="text/css">
     <!-- Custom styles for this template -->
-    <link href="/Users/Daedalus/Documents/mosaic_test/cover_page/bootstrap-3.3.5-dist/css/cover.css" rel="stylesheet">
-
+    <link href="../cover_page/bootstrap-3.3.5-dist/css/cover.css" rel="stylesheet" type="text/css">
+    <link href="../cover_page/bootstrap-3.3.5-dist/animate.css-master/animate.css" rel="stylesheet" type="text/css">
+      
+<!--    Javascript -->
+<!--      <script src="../cover_page/bootstrap-3.3.5-dist/js/core.min.js"></script>-->
+    <!--<script src="../cover_page/bootstrap-3.3.5-dist/js/plugin.min.js">-->
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- <script src="../../../assets/js/ie-emulation-modes-warning.js"></script> -->
@@ -28,24 +32,67 @@
   </head>
 
   <body>
-  	<nav class="navbar navbar-montere animated navbar-fixed-top navbar-fissa navbar-inverse" role="navigation" style="opacity: 1; top: 0px;">
-      <div class="navbar-header"> 
-      <a class="navbar-brand animated" href="/?lang=en"></a> 
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span> 
-          </button>
+      
+    <header id="header">
+        <nav class="navbar navbar-montere animated navbar-default navbar-statica" role="navigation" style="opacity: 1; top: 0px;">
+        <div class="navbar-header"> 
+          <a class="navbar-brand animated" href="/?lang=en"></a> 
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> 
+              </button>
+          </div>
+          <div class = "navbar-collapse collapse">
+            <ul id="main-nav"class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="line">HOME</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="line">ABOUT</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="line">TRANSITION PROGRAM | MENTORING PROGRAM</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="line">TEAM</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="line">CONNECTING</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="line">CONTACT</span>
+                    </a>
+                </li>
+            </ul>
+          </div>
+         </nav>
+    </header>
+      
+    <div class="carousel slide carousel-montere carousel-overlay toflip animated flipInY" id="carousel" dara-ride="carousel" style="-webkit-user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0 , 0 , 0 , 0); touch-action: none; opacity: 0;">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item item-1"></div>
+            <div class="item item-2"></div>
+            <div class="item item-3"></div>
+        </div>
       </div>
-      <div class"navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#transition">Transition Program</a></li>
-        </ul>
-      </div>
-     </nav> 
           
     <div id="home" class="site-wrapper">
 
