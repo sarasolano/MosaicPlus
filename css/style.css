@@ -53,22 +53,22 @@
 }
 
 .font-regular {
-    font-family: 'brandon_grotesque_regularRg';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
 .font-medium {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
 .font-bold {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
 .font-black {
-    font-family: 'brandon_grotesqueblack';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
@@ -182,7 +182,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     line-height: 1.6;
-    font-family: 'brandon_grotesque_regularRg';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
@@ -191,7 +191,7 @@ p {
 }
 
 strong {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
@@ -213,35 +213,35 @@ a:focus {
 }
 
 h1 {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 22px;
     color: #666
 }
 
 h2 {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 21px;
     color: #666
 }
 
 h3 {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 21px;
     color: #666
 }
 
 h4 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #666
 }
 
 h5 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #735768;
@@ -249,7 +249,7 @@ h5 {
 }
 
 h6 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -306,7 +306,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     transition-duration: .2s;
     -webkit-transition-property: all;
     -webkit-transition-duration: .2s;
-    font-family: 'brandon_grotesqueblack';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
@@ -371,7 +371,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .navbar-mobile {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 1;
@@ -420,12 +420,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .navbar-fissa {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 1;
     border-bottom: 2px solid #FFFD00;
-    background: #1b171c
+    background: transparent;
+		border-color: transparent;
 }
 
 .navbar-fissa .navbar-nav {
@@ -444,8 +445,9 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .navbar-fissa .navbar-nav li a {
     display: inline-block;
-    color: #fff;
-    font-size: 13px
+    color: #ffff00;
+    font-size: 13px;
+		font-weight: bold;
 }
 
 .navbar-fissa .navbar-nav li a .line {
@@ -549,7 +551,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .navbar-statica {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 1;
@@ -741,7 +743,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     white-space: nowrap;
     line-height: 1;
     padding: 10px 12px;
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
@@ -756,7 +758,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .intro-header h2 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
@@ -766,7 +768,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .intro-header h2 small {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #fff;
     font-size: 16px;
@@ -822,7 +824,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     text-transform: uppercase;
     display: block;
     text-shadow: 0 0 1px rgba(0,0,0,0.05),0 1px 2px rgba(0,0,0,0.3);
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     letter-spacing: 8px;
     line-height: 1.5
@@ -838,7 +840,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     padding-top: 40px;
     margin-top: 30px;
     background: url(../img/spacer-50x2-white.png) no-repeat top center;
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
@@ -954,7 +956,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .half-block h4 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #fff;
     font-size: 20px;
@@ -992,7 +994,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 h3.page-title {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 22px;
     text-align: center;
@@ -1006,7 +1008,7 @@ h3.page-title {
 }
 
 h3.page-title small {
-    font-family: 'brandon_grotesque_regularRg';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #666;
@@ -1026,7 +1028,7 @@ h3.page-title small {
 }
 
 .mini-title h4 {
-    font-family: 'brandon_grotesqueblack';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-top: 10px;
     font-size: 12px;
@@ -1099,7 +1101,7 @@ h3.page-title small {
 }
 
 .grid-item .inner a p {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #999;
@@ -1111,7 +1113,7 @@ h3.page-title small {
 }
 
 .grid-item .inner a h5 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 3px;
@@ -1189,7 +1191,7 @@ h3.page-title small {
 }
 
 .recipe-summary h4 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 2px;
@@ -1199,7 +1201,7 @@ h3.page-title small {
 }
 
 .recipe-content h4 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 2px;
@@ -1224,7 +1226,7 @@ h3.page-title small {
 }
 
 .bubble_inner h4 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
@@ -1248,7 +1250,7 @@ h3.page-title small {
 }
 
 .bubble_inner h6 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     border-bottom: 2px solid #ddd
@@ -1386,7 +1388,7 @@ h3.page-title small {
 }
 
 .timeline>li header h5 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 30px;
     color: #555;
@@ -1460,7 +1462,7 @@ h3.page-title small {
 }
 
 .share-bar .inner h6 {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
@@ -1553,7 +1555,7 @@ h3.page-title small {
 }
 
 .recommend-bar .like-wrapper .dot-irecommendthis .dot-irecommendthis-count {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     transition-property: color;
@@ -1631,12 +1633,8 @@ section#team .inner {
     -webkit-transition-duration: .4s
 }
 
-section#team .inner:hover {
-    background-color: rgba(27,23,28,0.9)
-}
-
 section#team h4 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 3px;
@@ -1652,13 +1650,12 @@ section#team h4 small {
 }
 
 section#connect {
-		height: 80%;
     overflow: hidden;
     position: relative;
     color: #fff;
     text-align: center;
     font-size: 16px;
-		background-color:#FF0004;
+		background-color:#CC6633  ;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1690,7 +1687,7 @@ section#connect .inner:hover {
 }
 
 section#connect h4 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 3px;
@@ -1706,13 +1703,22 @@ section#connect h4 small {
 }
 
 footer#footer {
-		height: 20%;
+		width: 100%;
+		height: 200px;
     color: #fff;
     text-align: center;
     font-size: 10px;
     letter-spacing: 3px;
-    font-family: 'brandon_grotesquebold';
-    font-weight: 400
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+		position: absolute;
+		bottom: 10px;
+		right: 10pd;
+		background-color: brown;
+}
+
+footer#footer#content {
+	margin-top: 50px;
 }
 
 footer#footer small {
@@ -1721,10 +1727,10 @@ footer#footer small {
 
 footer#footer p {
     margin: 0;
-    line-height: 2
+    line-height: 2;
 }
 
-footer#footer a {
+#footer a {
     color: #fff;
     transition-property: color;
     transition-duration: .1s;
@@ -1732,13 +1738,13 @@ footer#footer a {
     -webkit-transition-duration: .1s
 }
 
-footer#footer a:hover {
+#footer a:hover {
     text-decoration: none;
     color: #735768
 }
 
 footer#footer h4 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 3px;
@@ -1778,7 +1784,7 @@ footer#footer .newsletter-form #result {
     transition-duration: .2s;
     -webkit-transition-property: all;
     -webkit-transition-duration: .2s;
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
@@ -1948,7 +1954,7 @@ footer#footer .qtrans_language_chooser .active {
 }
 
 .share-bar .inner h6 {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
@@ -2007,7 +2013,7 @@ footer#footer .qtrans_language_chooser .active {
 }
 
 .facebook .intro-header h2 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
@@ -2017,7 +2023,7 @@ footer#footer .qtrans_language_chooser .active {
 }
 
 .facebook .intro-header h2 small {
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #fff;
     font-size: 16px;
@@ -2039,7 +2045,7 @@ footer#footer .qtrans_language_chooser .active {
 }
 
 .facebook h4 {
-    font-family: 'brandon_grotesquebold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 3px;
@@ -2070,10 +2076,14 @@ footer#footer .qtrans_language_chooser .active {
     transition-duration: .2s;
     -webkit-transition-property: all;
     -webkit-transition-duration: .2s;
-    font-family: 'brandon_grotesquemedium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
 
 .facebook .newsletter-form .input-wrapper {
     overflow: hidden
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #fff;
 }
