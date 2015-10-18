@@ -204,9 +204,11 @@ a {
     outline: none
 }
 
+/*
 a:hover {
     color: #735768
 }
+*/
 
 a:focus {
     outline: none
@@ -931,6 +933,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     -o-background-size: cover;
     background-size: cover
 }
+/*
 
 .half-block .inner {
     background: -moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0.5) 0,rgba(0,0,0,0) 100%);
@@ -945,10 +948,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     -webkit-transition-property: background-color;
     -webkit-transition-duration: .4s
 }
+*/
 
+/*
 .half-block .inner:hover {
     background-color: rgba(27,23,28,0.8)
 }
+*/
 
 .half-block p {
     padding: 30px 0 0;
@@ -981,11 +987,11 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
    background-color:#FF4548;
 }
 
-#recipes-wrapper.half-block {
-   background-color:#41A7FF;
+#transition-wrapper.half-block {
+   background-color:#18b0c8;
 }
 
-#journal-wrapper.half-block {
+#mentoring-wrapper.half-block {
    background-color:#6B2B91;
 }
 
@@ -1601,6 +1607,30 @@ h3.page-title small {
     height: 100%
 }
 
+section {
+	font-family: 'Montserrat', sans-serif;
+}
+
+section#about {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+		background-color:#cb1c39;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+section#about p {
+    padding: 30px 0 40px;
+    margin: 30px 110px 110px;
+    text-align: center;
+    background: url(../img/spacer-30x2-white.png) no-repeat top center
+}
+
 section#team {
     position: relative;
     color: #fff;
@@ -1639,6 +1669,7 @@ section#team h4 {
     font-size: 20px;
     letter-spacing: 3px;
     margin-top: 10px;
+		margin-bottom: 100px;
     color: #fff
 }
 
@@ -1647,6 +1678,15 @@ section#team h4 small {
     font-size: 14px;
     letter-spacing: 2px;
     padding: 0 0 10px
+}
+
+.pics {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    font-family: Arial;
+    overflow-x: hidden;
+		z-index: 2;
 }
 
 section#connect {
@@ -1681,10 +1721,12 @@ section#connect .inner {
     -webkit-transition-property: background-color;
     -webkit-transition-duration: .4s
 }
+/*
 
 section#connect .inner:hover {
     background-color: rgba(27,23,28,0.9)
 }
+*/
 
 section#connect h4 {
     font-family: 'Montserrat', sans-serif;
