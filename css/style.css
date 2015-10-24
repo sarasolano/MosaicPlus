@@ -97,6 +97,16 @@
     padding-bottom: 30px
 }
 
+.pad20 {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.pad6 {
+    padding-top: 6px;
+    padding-bottom: 6px
+}
+
 .mar50 {
     margin: 50px auto
 }
@@ -146,7 +156,19 @@
 }
 
 html,body {
-    height: 100%
+		width: 100%;
+  	height: 100%; 
+		-webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto; /* ie8 */
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -154,15 +176,21 @@ html,body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
+	min-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
+/*
+.site-wrapper .inner {
+	width: 100%;
+  background-size: cover
 }
+*/
+
 .cover-container {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .fill{
@@ -174,16 +202,23 @@ html,body {
 	-o-background-size: cover;
 }
 
-.row, .half-block {
-	height: 100%;
+section{
+/*	overflow:auto*/
+	min-height: 100%;
+	position: relative;
 }
 
-body {
-    -webkit-font-smoothing: antialiased;
-    font-size: 16px;
-    line-height: 1.6;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400
+section#program .cover-container{
+	position: absolute;
+}
+
+section#team .inner {
+	position: absolute;
+}
+
+.half-block {
+	height: 100%;
+/*	overflow: auto;*/
 }
 
 p {
@@ -399,10 +434,10 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .navbar-mobile .navbar-brand {
-    width: 32px;
-    height: 32px;
+    width: 100px;
+    height: 100px;
     margin: 8px 0 0 15px;
-    background: url(../images/logo.png) no-repeat center center;
+    background: url(../resources/images/logo.png) no-repeat center center;
     background-size: cover
 }
 
@@ -635,7 +670,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     position: absolute;
     width: 140px;
     height: 100px;
-    background: url(../images/logo.png) no-repeat center center;
+    background: url(../resources/images/logo.png) no-repeat center center;
     left: 50%;
     margin: 40px 0 0 -70px
 }
@@ -693,7 +728,6 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     display: none
 }
 /*
-
 #section_nav_wrapper {
     right: 60px;
     position: fixed;
@@ -705,18 +739,15 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     -webkit-transition-property: all;
     -webkit-transition-duration: .2s
 }
-
 #section_nav_wrapper #section_nav {
     list-style: none;
     width: 25px
 }
-
 #section_nav_wrapper #section_nav li {
     list-style: none;
     width: 25px;
     height: 25px
 }
-
 #section_nav_wrapper #section_nav li a {
     transition-property: all;
     transition-duration: .2s;
@@ -729,12 +760,10 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     background: url(../img/dot-25.png) no-repeat center center;
     background: url(../img/square-25.png) no-repeat center center
 }
-
 #section_nav_wrapper #section_nav li a:hover {
     background: url(../img/dot-empty-25.png) no-repeat center center;
     background: url(../img/square-empty-25.png) no-repeat center center
 }
-
 #section_nav_wrapper #section_nav .active a {
     background: url(../img/dot-empty-25.png) no-repeat center left;
     background: url(../img/square-empty-25.png) no-repeat center center
@@ -909,20 +938,26 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .item-1 {
-    background: url(../images/sky.jpg) no-repeat center center
+    background: url(../resources/images/sky.jpg) no-repeat center center
 }
 
 .item-2 {
-    background: url(../images/andrews.jpg) no-repeat center center
+    background: url(../resources/images/andrews.jpg) no-repeat center center
 }
 
 .item-3 {
-    background: url(../images/gates.jpg) no-repeat center center
+    background: url(../resources/images/gates.jpg) no-repeat center center
 }
 
 .item-4 {
-    background: url(../images/gates.jpg) no-repeat center center
+    background: url(../resources/images/eyeemfiltered1444431968726.jpg) no-repeat center center
 }
+
+/*
+.item-5 {
+    background: url(../resources/images/DSC08337.jpg) no-repeat center center
+}
+*/
 
 .half-block {
     text-align: center;
@@ -932,9 +967,9 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
-}
+} 
+ 
 /*
-
 .half-block .inner {
     background: -moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0.5) 0,rgba(0,0,0,0) 100%);
     background: -webkit-gradient(radial,center center,0,center center,100%,color-stop(0,rgba(0,0,0,0.5)),color-stop(100%,rgba(0,0,0,0)));
@@ -956,21 +991,44 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 */
 
-.half-block p {
-    padding: 30px 0 0;
-    text-align: center
+.half-block .inner {
+	color: #fff;
 }
 
-.half-block h4 {
+.half-block .inner #section {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.half-block .inner p {
+		color: #fff;
+		font-size: 15px;
+    padding: 0px 0 0;
+    text-align: center;
+		margin: 5px 50px 5px;
+		margin-top: 2;
+}
+
+.half-block .inner h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 10px
+}
+
+.half-block .inner h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #fff;
     font-size: 20px;
     letter-spacing: 3px;
-    margin-top: 10px
+    margin-top: 15px;
+		margin-bottom: 2px;
 }
 
-.half-block h4 small {
+.half-block .inner h4 small {
     color: #fff;
     display: block;
     font-size: 14px;
@@ -1074,7 +1132,7 @@ h3.page-title small {
 
 
 .img-block {
-    height: 90%;
+    height: 100%;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1631,17 +1689,51 @@ section#about p {
     background: url(../img/spacer-30x2-white.png) no-repeat top center
 }
 
-section#team {
-    position: relative;
-    color: #fff;
+||||||| merged common ancestors
+=======
+section {
+	font-family: 'Montserrat', sans-serif;
+	background-size: cover;
+}
+
+
+
+section#about {
+    color: #cb1c39;
     text-align: center;
-    font-size: 16px;
-		background-color:#63EBF2;
+    font-size: 30px;
+		background-image: url(../resources/images/DSC08337.jpg);
+/*		background-color:#cb1c39;*/
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
+}
+
+section#about div {
+	background-size: auto;
+	background-position: center center;
+}
+
+section#about p {
+    padding: 30px 0 40px;
+    margin: 30px 110px 110px;
+    text-align: center;
+		background-color: rgba(27,23,28,0.7);
+}
+
+section#team {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+		background-color: #cb1c39;
+/*		background-color:#63EBF2;*/
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 section#team small {
@@ -1652,11 +1744,10 @@ section#team p {
     padding: 30px 0 40px;
     margin: 30px 110px 110px;
     text-align: center;
-    background: url(../img/spacer-30x2-white.png) no-repeat top center
 }
 
 section#team .inner {
-    background-color: rgba(27,23,28,0.7);
+		height: 100%;
     transition-property: background-color;
     transition-duration: .4s;
     -webkit-transition-property: background-color;
@@ -1666,10 +1757,11 @@ section#team .inner {
 section#team h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 3px;
     margin-top: 10px;
 		margin-bottom: 100px;
+		margin-bottom: 40px;
     color: #fff
 }
 
@@ -1680,13 +1772,8 @@ section#team h4 small {
     padding: 0 0 10px
 }
 
-.pics {
-    position: relative;
-    display: inline-block;
-    padding: 0px;
-    font-family: Arial;
-    overflow-x: hidden;
-		z-index: 2;
+section#team .cover-container .text-center {
+	overflow: visible; 
 }
 
 section#connect {
@@ -1711,7 +1798,6 @@ section#connect p {
     padding: 30px 0 40px;
     margin: 30px 110px 110px;
     text-align: center;
-    background: url(../img/spacer-30x2-white.png) no-repeat top center
 }
 
 section#connect .inner {
@@ -1721,8 +1807,8 @@ section#connect .inner {
     -webkit-transition-property: background-color;
     -webkit-transition-duration: .4s
 }
-/*
 
+/*
 section#connect .inner:hover {
     background-color: rgba(27,23,28,0.9)
 }
@@ -1734,29 +1820,43 @@ section#connect h4 {
     font-size: 20px;
     letter-spacing: 3px;
     margin-top: 10px;
-    color: #fff
+    color: #fff;
 }
 
 section#connect h4 small {
     display: block;
     font-size: 14px;
     letter-spacing: 2px;
-    padding: 0 0 10px
+    padding: 0 0 10px;
 }
 
+/*
+footer#footer .prima {
+   	background-color: #AB0004;
+}
+footer#footer h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    color: #fff;
+}
+footer#footer .social_menu {
+    margin: 10px 0 0;
+}
+footer#footer .seconda {
+    background-color: #000;
+}
+*/
+
 footer#footer {
-		width: 100%;
-		height: 200px;
     color: #fff;
     text-align: center;
     font-size: 10px;
     letter-spacing: 3px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-		position: absolute;
-		bottom: 10px;
-		right: 10pd;
-		background-color: brown;
 }
 
 footer#footer#content {
@@ -1835,7 +1935,7 @@ footer#footer .newsletter-form .input-wrapper {
 }
 
 footer#footer .social_menu {
-    margin: 40px 0 0
+    margin: 20px 0 0
 }
 
 footer#footer .seconda {
@@ -2128,4 +2228,17 @@ footer#footer .qtrans_language_chooser .active {
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #fff;
+}
+
+.fa {
+	margin-right: 30px;
+}
+
+.overflow {
+	min-height: 1000px;
+	min-width: 1500px;
+}
+
+.small_overflow{
+	min-height: 900px;
 }

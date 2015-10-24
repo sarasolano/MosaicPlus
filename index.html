@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Index</title>
+	<title>Index</title>
 
-<!-- dont forget to install the favicons --> 
-<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-<!-- Bootstrap style sheets --> 
-<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<!-- dont forget to install the favicons --> 
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<!-- Bootstrap style sheets --> 
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
 <!-- Custom Style Sheets --> 
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -21,9 +21,24 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!--<script type="text/javascript" src="jquery.fullPage.js"></script>-->
 
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/plugin.min.js"></script>
-<script src="js/core.min.js"></script>
+	<!--  JSON Data -->
+	<script src="resources/team.json"></script>
+	
+	<!-- RactiveJS -->
+	<script src="js/ractive.min.js"></script>
+	<!-- Custom Style Sheets --> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/team.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+		<script src="js/main.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+	<!-- full page scrolling --> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/plugin.min.js"></script>
+	<script src="js/core.min.js"></script>
 </head>
 
 <body>
@@ -54,20 +69,22 @@
                         </li>
                         <li>
                         	<a href="#program">
-                            	<span class="line">TRANSITION | MENTORING</span>
+                            	<span class="line">TRANSITION | MENTORSHIP</span>
                             </a>
                         </li>
                         
                         <li>
                         	<a href="#team">
-                            	<span class="line">TEAM</span>
+                            	<span class="line">THE TEAM</span>
                             </a>
                         </li>
+<!--
                         <li>
                         	<a href="#connect">
                             	<span class="line">CONNECTIONS</span>
                             </a>
                        </li>
+-->
                 </ul>
             </div>
         </nav>
@@ -79,22 +96,20 @@
             <li data-slide-to="1" data-target="#carousel"></li>
             <li data-slide-to="2" data-target="#carousel"></li>
             <li data-slide-to="3" data-target="#carousel"></li>
+						<li data-slide-to="4" data-target="#carousel"></li>
         </ol>
         
         <div class="carousel-inner">
         	<div class="item active item-1">
             	<div class="carousel-caption text-center">
-                    <h2>Mosaic+<br>
-                    THIS IS ME TESTING EVERYTHING THING OUT AGAIN</h2>
+                    <h2>Mosaic+</h2>
 
-                    <p>This is testing whether we would like text like this in the middle <br>
-                    of the header page as the foreground </p>
+                    <p></p>
                 </div>
             </div>
             <div class="item item-2">
             	<div class="carousel-caption text-center">
-                    <h2>Mosaic+<br>
-                    We can put photos of URMs here</h2>
+                    <h2>Mosaic+</h2>
                 </div>
             </div>
             <div class="item item-3"></div>
@@ -103,105 +118,134 @@
         </div>
     </div>
 
-	<section id="about" class="tofade site-wrapper">
-		<div class="inner pad70 fill">
-            <h4>About Us</h4>
+	<section id="about" class="tofade site-wrapper overflow">
+			<div class="cover-container inner pad70 fill">
+<!--            <h4>About Us</h4>-->
+				<div><p>Mosaic+ is a student-run advocate for diversity in computer science, Mosaic+ strives towards an academic environment receptive to underrepresented minority students and faculty at Brown University. We are a group of committed and creative students working together to make proactive steps towards the celebration of diversity in the world of technology.</p></div>
 			 </div>
     </section>
 
-	<section id="program" class="site-wrapper">
-    	<div class="row cover-container">
-        	<div class="col-sm-6 fill">
-            	<div class="half-block toflip" id="transition-wrapper">
-                	<div class="inner pad90 fill">
-                    	<h4>Transition Program</h4>
+	<section id="program" class="site-wrapper overflow">
+    	<div class="cover-container fill">
+        	<div class="col-sm-6 fill small_overflow">
+            	<div class="half-block small_overflow" id="transition-wrapper">
+                	<div class="inner pad90">
+                    	<h3>Transition Program</h3>
+<!--													<h4>About</h4>-->
                         <p>
-                        	<a class="btn btn-light" href="#">Transition Program</a>
+<!--                        	<a class="btn btn-light" href="#">Transition Program</a>-->
+													Ending the summer with a resounding BANG, the Mosaic+ Transition Program welcomes newly admitted underrepresented minority students to Brown University through an exciting introduction to Computer Science. Over the course of this activity-packed pre-orientation program, Mosaic+ exposes new students to the meaningful opportunities and exciting challenges that await in Brown’s computer science department and the world of technology beyond.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 fill">
-            	<div class="half-block toflip" id="mentoring-wrapper">
-                	<div class="inner pad90 fill">
-                    	<h4>Mentoring Program</h4>
+          <div class="col-sm-6 fill small_overflow">
+            	<div class="half-block small_overflow" id="mentoring-wrapper">
+                	<div class="inner pad90">
+                    	<h3 style="margin-bottom:20px">Mentorship Program</h3>
+<!--												<h4>About</h4>-->
                         <p>
-                        	<a class="btn btn-light" href="#">Mentoring Program</a>
+<!--                        	<a class="btn btn-light" href="#">Mentoring Program</a>-->
+													Striving towards a computer science department that not only accommodates but celebrates diversity, the Mosaic+ Mentorship program fosters community for underrepresented minority students through structured peer support. Through interactive workshops, mentor-mentee relationships, and group study programs, Mosaic+ ensures minority students are provided the resources and networks necessary to make the most of their academic experience within Brown’s computer science department.
                         </p>
+											
+											<div id="section" class="row">
+												<div class="col-sm-7">
+													<h4>Big-Little System</h4>
+													<p>The Mosaic+ mentorship system is broken down into pairs of Bigs and Littles. The role of a big is to provide mental, moral, and emotional support for their little. A big is a friend, mentor, and coach who seeks to encourage and motivate their little to succeed.</p>
+												</div>
+												<div class="col-sm-5">
+													<p>Are you interested in being part of the program?</p>
+													<a style="margin-top:5px" class="btn btn-light" href="#">Big Application</a>
+													<a style="margin-top:5px" class="btn btn-light" href="#">Little Application</a>
+												</div>
+											</div>
+										
+											<div id="section" class="row">
+												<div style="margin-top:60px" class="col-sm-4">
+													<p>RSVP to this months workshop!</p>
+													<a class="btn btn-light" href="#">RSVP</a>
+												</div>
+												<div class="col-sm-8">
+													<h4>Workshops</h4>
+													<p>Workshops are monthly meetings held by Mosaic+ facilitators designed to help both members and non-members learn a number of non-course related concepts. In the fall semester, these topics will cover a  broad range of topics based on suggestions from Mosaic+'s members.  During the spring, we'll split the workshops into two different tracks: workshops in the first track will offer preparation to students during their tech-internship search. The second track will be geared toward students who are not interested in obtaining a Computer Science related internship the following summer.</p>
+												</div>
+											</div>
+											
+											<div id="section" class="row">
+												<div class="col-sm-8">
+													<h4>Group Study</h4>
+													<p>Group Studies are course-specific, bi-monthly meetings held by Mosaic+ facilitators to help Mosaic’s members understand course-related concepts. Each group study focuses on a new topic within its respective course and has the following design: a mini-lecture on the concept, space for the group members to collaboratively solve a problem using the given concept, and a space for individuals to solve another problem using the given concept. Group Studies always use original materials, both to hold collaboration policies and to make the problems more exciting!</p>
+												</div>
+												<div style="margin-top:40px" class="col-sm-4">
+													<p>RSVP for group study sessions</p>
+													<a style="margin-top:5px" class="btn btn-light" href="#">CS017</a>
+													<a style="margin-top:5px" class="btn btn-light" href="#">CS018</a>
+													<a style="margin-top:5px" class="btn btn-light" href="#">CS019</a>
+												</div>
+											</div>
+												
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <section id="team" class="tofade site-wrapper">
-        <div class="inner pad70 fill">
-
-            <h4>The Team</h4>
-					<div class="row text-center">
-						<div class="pics">
-							<div style="width:200px;height:200px">
-								<p>Why I join Mosaic+: I joined Mosaic+ because its members are some of the best people I met in my first year at Brown. In addition, it offers a support system, both socially and academically. that I would have liked to have had during my first year studying CS. Fun fact: I didn't have a name until I was one month old.Favorite place to eat: The Ratty, BUT the best food comes from the Blue Room. Wait until 4:00 pm though :-). Activities during free time: Listen to music and find new artists.</p>
-								<img title="Kevin Anderson" width='200' height='200' style="position: relative; font-weight: bold;" src="images/individual/kevin.png"/>
-							</div>
-						</div>
-           </div>
-<!--
-            <div class="row text-center">
-            	<div class="info-popover-group">
-                	<div class="popover-parent">
-                    	<img alt="Kevin" src="images/individual/kevin.png"/>
-                        <h5 class="last">Kevin Anderson</h5>
-                        <h6 class="gray-light first">Mentorship</h6>
-                        <div class="info-popover arrow_box">
-                        	<div class="info-popover-title">
-                            	<h5 class="first">Kevin Anderson</h5>
-                                <h6 class="yellow first"></h6>
-                                <ul class="list-inline">
-                                	<li></li>
-                                    <li></li>
-                                </ul>
-                            </div>
-                            <div class="info-popoever-body">
-                            	<p>Some text here</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="info-popover-group">
-                	<div class="popover-parent">
-                    	<img alt="Kevin" src="images/individual/kevin.png"/>
-                        <h5 class="last">Kevin Anderson</h5>
-                        <h6 class="gray-light first">Mentorship</h6>
-                        <div class="info-popover arrow_box">
-                        	<div class="info-popover-title">
-                            	<h5 class="first">Kevin Anderson</h5>
-                                <h6 class="yellow first"></h6>
-                                <ul class="list-inline">
-                                	<li></li>
-                                    <li></li>
-                                </ul>
-                            </div>
-                            <div class="info-popoever-body">
-                            	<p>Some text here</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-					</div>
--->
-        </div>
-    </section>
+  <section id="team" class="tofade site-wrapper overflow">
+	</section>
     
 <!--
      <section id="connect" class="tofade site-wrapper">
 		<div class="inner pad70 fill">
             <h4>Connecting out there</h4>
-
 			 </div>
     </section>
 -->
-                     
+	<footer id="footer" class="tofade animated fadeInUp" style="opacity: 0; min-width: 1500px;">
+		<div class="prima pad20">
+			<h4> Connect with us! </h4>
+			<ul class="social_menu light">
+				<i class="fa fa-facebook fa-3x"></i>
+				<i class="fa fa-tumblr fa-3x"></i>
+				<i class="fa fa-google-plus fa-3x"></i>
+				<i class="fa fa-instagram fa-3x"></i>
+				<i class="fa fa-github fa-3x"></i>
+			</ul>
+		</div>
+		<div class="seconda pad6">
+			<p> Brown University Providence, RI 02912 </p>
+		</div>
+	</footer>
+	
+</body>
+	
+<!-- Ractive scripts -->
+	<script id="team-template" type="text/ractive">
+		<div class="cover-container inner pad90 fill">
+            <h4>The Team</h4>
+            <div class="row text-center">
+            <div class="text-center">
+						{{#team}}
+            	<div class="info-popover-group">
+                	<div class="popover-parent">
+                    	<div class="img"><img alt="#" src={{image}} on-load="imageload"/></div>
+                        <h5 class="last">{{name}}</h5>
+                        <h6 class="first" style="color:yellow">{{team}}</h6>
+                        <div class="info-popover arrow_box">
+                        	<!---<div class="info-popover-title">
+                            	<h5 class="first">{{name}}</h5>
+                            </div> ---->
+                            <div class="info-popoever-body">
+                            	{{description}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+								{{/team}}
+					</div>
+			</div>
+	</script>
+ 
 <script type="text/javascript"> 
 	var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-46240022-1']);
@@ -215,5 +259,4 @@
 				s.parentNode.insertBefore(ga, s);
 		})();
 </script>
-</body>
 </html>
