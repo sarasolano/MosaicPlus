@@ -9,16 +9,16 @@ var team =  [
     },
    {
         "name": "Kevin Anderson",
-		 		"image": "../resources/images/individual/thumbnails/Asha-1.png",
-		 		"team":"Mentorship Program",
+		 		"image": "../resources/images/individual/thumbnails/Kevin-1.png",
+		 		"team":"Mentoring Program",
         "year": "Sophomore",
         "description": "Why I join Mosaic+: I joined Mosaic+ because its members are some of the best people I met in my first year at Brown. In addition, it offers a support system, both socially and academically. that I would have liked to have had during my first year studying CS. Fun fact: I didn't have a name until I was one month old.Favorite place to eat: The Ratty, BUT the best food comes from the Blue Room. Wait until 4:00 pm though :-). Activities during free time: Listen to music and find new artists.",
         "doYouHaveAnySuggestionsYoudForThisMosaicPlusWebsite": "Nope. All good."
     },
     {
         "name": "Peter Clarke",
-				"image": "../resources/images/individual/thumbnails/Asha-1.png",
-		 		"team":"Mentorship Program",
+				"image": "../resources/images/individual/thumbnails/Peter-1.png",
+		 		"team":"Mentoring Program",
         "year": "Sophomore",
         "description": "Hey everyone! My name is Peter Clarke, and I'm from Brooklyn, NY. A few fun facts about me are that I can't stand melted cheese unless it's on pizza and that sometimes when I'm trying to relax, I listen to epic movie trailer music and some dancehall. I decided to join MOSAIC+ because I wanted to be a resource and a part of a support system for underrepresented minorities in CS. As a freshman, I often felt saddened and disgruntled because of how difficult CS was and the fact that I was one of few minorities within the department. "
     },
@@ -46,7 +46,7 @@ var team =  [
     },
     {
         "name": "Austin Peete",
-				"image": "../resources/images/individual/thumbnails/Asha-1.png",
+				"image": "../resources/images/individual/thumbnails/Austin-1.png",
 		 		"team":"Branding Team | Internal Outreach",
         "year": "Sophomore",
         "description": "Throughout the past year, I have been trying to figure out how I could become a better influence within my community. Ideas started to pop into my head around the time I attended the Tapia 2015 Conference, my first minority tech conference. I thought I hadn’t done enough with the tools I’d gathered up to that point. However, in my time there I realized that I had just broken the surface of making a difference. The minute Mosaic+ started to come to fruition I knew that it was my chance to join the movement for diversifying the tech field. For fun, I dance, obsess over Korean culture, watch movies, and sleep. Lately, I've been getting into web app development, and I hope to blaze through a few hackathons during my semester. ",
@@ -54,16 +54,16 @@ var team =  [
     },
 		{
         "name": "Kendal Cockrel",
-				"image": "../resources/images/individual/thumbnails/Asha-1.png",
-		 		"team":"Transition Program?",
+				"image": "../resources/images/individual/thumbnails/Kendal-1.png",
+		 		"team":"Transition Program",
         "year": "Junior",
         "description": "I joined Mosaic+ because I noticed the lack of support for students of color in Computer Science at Brown and beyond and wanted to work to change that, and make the experience better for students who who would come after me. My fun fact is that I can't snap with my left hand. My favorite spot to eat on campus is Andrew's Commons. In my free time I love to read comic books and graphic novels.",
         "doYouHaveAnySuggestionsYoudForThisMosaicPlusWebsite": "Responsive web design!"
     },
     {
         "name": "Hassan Mohamed Sufi",
-				"image": "../resources/images/individual/thumbnails/Asha-1.png",
-		 		"team":"Mentorship Program",
+				"image": "../resources/images/individual/thumbnails/Hassan.png",
+		 		"team":"Mentoring Program",
         "year": "Junior",
         "description": "I'm a Junior at Brown University studying Computer Science with interests in all things Computer Systems and games. I'm currently a teaching assistant for Brown's Intro to Computer Systems course, CS33. I first became interested in Computer Science when my twin introduced me to the world of Android. He showed me how to gain super user access to the device (\"rooting\") and through that how you could do more than you could before such as wiping the OS and putting a new on it. After Android my interest moved to Linux where I would stay up late putting different distributions of Linux, such as Debian or Fedora, in virtual machines and use them. I knew I had a general interest in computers but it wasn't until my first year at Brown that I became interested in Computer Programming. It's been two years since then and I'm very glad that I chose to try it. Computer Programming lets me create what I want and have a good time while doing it. I joined Mosiac+ because I noticed the lack of representation in Computer Science for minority students. CS can already be a difficult concentration to choose as you are surrounded by a bevy of students who've been doing it much longer than you have. What helped me as a first year student studying CS was having an internship to get real world experience. What also helped was that there was a black Junior studying CS, someone who understood the problems I faced in the CS department. I wanted to be that person for the newer minority students in CS. That is why I joined Mosiac+.  "
     }
