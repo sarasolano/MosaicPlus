@@ -1,5 +1,12 @@
 var team =  [
 	{
+        "name": "Nifemi Madarikan",
+				"image": "../resources/images/individual/thumbnails/Nifemi-1.png",
+        "year": "Junior",
+        "team": "Chief Coordinator", 
+			"description": "I've always been fascinated by technology; from the man-machine synthesis of Marvel's Iron Man, to the manipulation of pixel properties that transforms a blank computer screen to a visual portal into another world. With its ethos of exploration and collaborative learning, Brown University Computer Science is where I began my discovery of how to personally contribute to technology. \nHowever, I struggled to feel at home in an environment that did not fully embrace diversity and inclusiveness in its students and faculty. Mosaic+ was created to foster Community, inspire Innovation, and provide Opportunity to underrepresented minority students. Environment - as the space in which people and things operate - matters. Mosaic+ was created to build a better environment for minorities in Computer Science."
+    },
+	{
         "name": "Chelse-Amoy Steele",
 				"image": "../resources/images/individual/thumbnails/Chelse.png",
 		 		"team":"Deputy Coordinator",
@@ -63,8 +70,15 @@ var team =  [
     {
         "name": "Hassan Mohamed Sufi",
 				"image": "../resources/images/individual/thumbnails/Hassan.png",
-		 		"team":"Mentoring Program",
+		 		"team":"Mentoring Program | External Outreach",
         "year": "Junior",
         "description": "I'm a Junior at Brown University studying Computer Science with interests in all things Computer Systems and games. I'm currently a teaching assistant for Brown's Intro to Computer Systems course, CS33. I first became interested in Computer Science when my twin introduced me to the world of Android. He showed me how to gain super user access to the device (\"rooting\") and through that how you could do more than you could before such as wiping the OS and putting a new on it. After Android my interest moved to Linux where I would stay up late putting different distributions of Linux, such as Debian or Fedora, in virtual machines and use them. I knew I had a general interest in computers but it wasn't until my first year at Brown that I became interested in Computer Programming. It's been two years since then and I'm very glad that I chose to try it. Computer Programming lets me create what I want and have a good time while doing it. I joined Mosiac+ because I noticed the lack of representation in Computer Science for minority students. CS can already be a difficult concentration to choose as you are surrounded by a bevy of students who've been doing it much longer than you have. What helped me as a first year student studying CS was having an internship to get real world experience. What also helped was that there was a black Junior studying CS, someone who understood the problems I faced in the CS department. I wanted to be that person for the newer minority students in CS. That is why I joined Mosiac+.  "
+    },
+	{
+        "name": "Sara Solano",
+				"image": "../resources/images/individual/thumbnails/Sara.png",
+        "year": "Sophomore",
+        "team": "Mentoring Program | Web Design | External Outreach", 
+			"description": "I have been passionate about technology since I was a little girl. My dad is an engineer and he taught me everything about fixing things. I want Mosaic+ to open up the doors for URMs in CS for Brown and to show them that even though most people in the field don't look like us, we are as capable (or even more capable) of succeeding in this wonderful field. \nI have babanas with a passion, but I love sweet plantains and I don't understand why people say they taste similar. I love comic books and Latin American literature - If I could spend all day reading I would. My favorite super heroe is Batman (of course) and my favorite comic book/graphic novel is \"Batman and The Long Halloween\"."
     }
 ]// END OF TEAM DATA

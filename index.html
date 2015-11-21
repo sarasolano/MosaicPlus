@@ -126,9 +126,9 @@
     </section>
 
 	<section id="program" class="site-wrapper ">
-    	<div class="cover-container fill">
-        	<div class="col-sm-6 fill ">
-            	<div class="half-block " id="transition-wrapper">
+    	<div class="cover-container fill" >
+        	<div class="col-sm-6 fill">
+            	<div style="overflow-y: auto;" class="half-block" id="transition-wrapper">
                 	<div class="inner pad90">
                     	<h3 style="margin-bottom:20px">Transition Program</h3>
 <!--													<h4>About</h4>-->
@@ -140,9 +140,9 @@
                 </div>
             </div>
           <div class="col-sm-6 fill ">
-            	<div class="half-block " id="mentoring-wrapper">
+            	<div style="overflow-y: auto;" class="half-block" id="mentoring-wrapper">
                 	<div class="inner pad90">
-                    	<h3 style="margin-bottom:20px">Mentorship Program</h3>
+                    	<h3 style="margin-bottom:20px;">Mentorship Program</h3>
 <!--												<h4>About</h4>-->
                         <p>
 <!--                        	<a class="btn btn-light" href="#">Mentoring Program</a>-->
@@ -170,7 +170,7 @@
         </div>
   </section>
     
-  <section id="team" class="tofade site-wrapper">
+  <section style="overflow-y: auto;" id="team" class="tofade site-wrapper">
 	</section>
     
 <!--
@@ -200,9 +200,9 @@
 	
 <!-- Ractive scripts -->
 	<script id="team-template" type="text/ractive">
-		<div class="cover-container inner pad90 fill">
+		<div class="cover-container inner pad90 fill" style="min-height:100%">
          <h4>The Team</h4>
-         <div class="text-center info" style="margin-left: 8%;margin-right: 8%;">
+         <div class="text-center info">
 						{{#team}}
             	<div class="info-popover-group">
                 	<div class="popover-parent">
