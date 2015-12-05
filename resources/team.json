@@ -80,5 +80,12 @@ var team =  [
         "year": "Sophomore",
         "team": "Mentoring Program | Web Design | External Outreach", 
 			"description": "I have been passionate about technology since I was a little girl. My dad is an engineer and he taught me everything about fixing things. I want Mosaic+ to open up the doors for URMs in CS for Brown and to show them that even though most people in the field don't look like us, we are as capable (or even more capable) of succeeding in this wonderful field. \nI have babanas with a passion, but I love sweet plantains and I don't understand why people say they taste similar. I love comic books and Latin American literature - If I could spend all day reading I would. My favorite super heroe is Batman (of course) and my favorite comic book/graphic novel is \"Batman and The Long Halloween\"."
+    },
+	{
+        "name": "Charles Njoroge",
+				"image": "../resources/images/individual/thumbnails/Charles.png",
+        "year": "Sophomore",
+        "team": "Web Design | Finance Team", 
+			"description": "I'm a sophomore at Brown University studying computer science. I'm learning everything I have ever wanted to since I was little but it has been hard. There have been moments where I've wanted to give up and other moments where I've questioned whether I really do belong. Until I met some amazing people who believed in helping one another and getting through stress and homework together. With those people Mosaic+ was formed and I found somewhere that I belonged and by being a part of Mosiac+ I can give back to the community and help students that were in my position. When not in the CIT I can be found playing basketball, especially during the summer, watching movies (any movies), and reading a good novel. My favorite movie is The Princess Bride, and my favorite book is The Alchemist by Paolo Coehlo."
     }
 ]// END OF TEAM DATA
